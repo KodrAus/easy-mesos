@@ -1,0 +1,6 @@
+version: "2"
+
+services:
+  slave:
+    environment:
+      MESOS_RECOVER: cleanup
