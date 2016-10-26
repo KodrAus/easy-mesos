@@ -19,7 +19,12 @@ Currently, there are two clusters supported:
 
 Both are still in progress and don't really work yet.
 
-## DCOS
+## Mesos Cluster
+
+The `slave` nodes can be scaled, but the others are fixed.
+Mesos doesn't like it when IP addresses change, so use `up.sh` instead of `docker-compose up` to bring up the cluster.
+
+## DCOS Cluster
 
 Fetch a copy of [`dcos_generate_config`](https://dcos.io/releases/) and put it in the `dcos/bootstrap/volume` folder.
 This will be copied to the container on initial build.
