@@ -11,3 +11,10 @@ A couple of nice-to-have thoughts:
 - Support persistent state (rather than killing slaves and rebuilding)
 
 The base `docker-compose` is adapted from [here](https://github.com/bobrik/mesos-compose).
+
+Currently, there are two clusters supported:
+
+- A dynamically sized Mesos + Marathon cluster
+- A statically sized DCOS cluster
+
+Both are still in progress and don't really work yet.
