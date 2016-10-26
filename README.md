@@ -18,3 +18,10 @@ Currently, there are two clusters supported:
 - A statically sized DCOS cluster
 
 Both are still in progress and don't really work yet.
+
+## DCOS
+
+Fetch a copy of [`dcos_generate_config`](https://dcos.io/releases/) and put it in the `dcos/bootstrap/volume` folder.
+This will be copied to the container on initial build.
+
+The rest is _TODO_.
